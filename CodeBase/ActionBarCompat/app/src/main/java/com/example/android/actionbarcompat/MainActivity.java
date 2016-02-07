@@ -30,6 +30,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
+        System.out.println("test change");
         findViewById(R.id.toggle_title).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
